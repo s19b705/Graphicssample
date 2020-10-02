@@ -7,18 +7,20 @@
     tools:context=".MainActivity">
 
     <jp.ac.shohokus19b702.graphicssample.CustomView1
+
+        android:id="@+id/view1"
         android:layout_width="match_parent"
         android:layout_height="350dp"
-        app:
-
-      />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="5dp"
+         />
 
     <jp.ac.shohokus19b702.graphicssample.CustomView2
 
-        andorid:id="@+id/customview2"
+        android:id="@+id/view2"
         android:layout_width="match_parent"
         android:layout_height="350dp"
-
-        />
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="380dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
